@@ -1,0 +1,65 @@
+.main-container {
+  h1 {
+    color: #fff;
+    text-align: center;
+    margin: 15px 0;
+    font-weight: 900;
+  }
+  .feild {
+    p {
+      color: #fff;
+      text-align: center;
+    }
+  }
+
+  .feild {
+    width: 100%;
+  }
+
+  .gamefeild {
+    max-width: 300px;
+    .subfield {
+      cursor: pointer;
+      height: 100px;
+      width: 100px;
+      border: 1px solid #fff;
+      &.player-one {
+        background: rgb(47, 235, 47);
+      }
+      &.player-two {
+        background: rgb(235, 53, 47);
+      }
+    }
+  }
+
+  .subfield {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+  }
+
+  .gameboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    .players {
+      align-self: center;
+      p {
+        font-weight: 700;
+        margin: 0 10px;
+      }
+    }
+    .player-one {
+      p {
+        color: rgb(47, 235, 47);
+      }
+    }
+    .player-two {
+      p {
+        color: rgb(235, 53, 47);
+      }
+    }
+  }
+}
